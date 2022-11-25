@@ -195,15 +195,25 @@ font-weight: 300;
     margin: 52px auto;
 }
 .faq-list-item {
-    background-color: #303030;
-    padding: 21px 57px 21px 31px;
-    display: flex;
-    justify-content: space-between;
+    list-style-type: none;
     margin-bottom: 8px;
     font-size: 24px;
     font-weight: 400;
 }
-.faq-btns .close-btn {
+
+.faq-question {
+    padding: 21px 57px 21px 31px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;   
+}
+.faq-answer {
+    padding: 21px 57px 21px 31px;
+   background-color: #303030;
+   display: none; 
+   margin-top: 1px;
+}
+.close-btn {
     display: none;
 }
 footer {
